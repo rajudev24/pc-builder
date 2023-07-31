@@ -1,0 +1,730 @@
+{
+  "products": {
+    "CPU_Processor": [
+      {
+        "id": 1,
+        "image": "/images/cpu-1.jpg",
+        "product_name": "CPU Model X",
+        "category": "CPU / Processor",
+        "status": "In Stock",
+        "price": "$299.99",
+        "description": "The CPU Model X delivers exceptional performance for high-end computing.",
+        "key_features": {
+          "brand": "Brand A",
+          "model": "Model X",
+          "specification": "Spec A",
+          "cores": 8,
+          "threads": 16,
+          "clock_speed": "3.8 GHz",
+          "socket": "Socket X"
+        },
+        "individual_rating": 4.7,
+        "average_rating": 4.8,
+        "reviews": [
+          {
+            "username": "User1",
+            "rating": 5,
+            "comment": "This CPU is a beast! It handles everything I throw at it."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "image": "/images/cpu-2.jpg",
+        "product_name": "CPU Model Y",
+        "category": "CPU / Processor",
+        "status": "Out of stock",
+        "price": "$249.95",
+        "description": "The CPU Model Y offers a balance of performance and energy efficiency.",
+        "key_features": {
+          "brand": "Brand B",
+          "model": "Model Y",
+          "specification": "Spec B",
+          "cores": 6,
+          "threads": 12,
+          "clock_speed": "3.5 GHz",
+          "socket": "Socket Y"
+        },
+        "individual_rating": 4.5,
+        "average_rating": 4.6,
+        "reviews": [
+          {
+            "username": "User4",
+            "rating": 4,
+            "comment": "Solid CPU for everyday tasks and light gaming."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "image": "/images/cpu-3.jpg",
+        "product_name": "CPU Model Z",
+        "category": "CPU / Processor",
+        "status": "In Stock",
+        "price": "$359.99",
+        "description": "The CPU Model Z is designed for enthusiasts and heavy workloads.",
+        "key_features": {
+          "brand": "Brand C",
+          "model": "Model Z",
+          "specification": "Spec C",
+          "cores": 12,
+          "threads": 24,
+          "clock_speed": "4.0 GHz",
+          "socket": "Socket Z"
+        },
+        "individual_rating": 4.9,
+        "average_rating": 4.9,
+        "reviews": [
+          {
+            "username": "User7",
+            "rating": 5,
+            "comment": "An excellent CPU for content creators and professionals."
+          }
+        ]
+      }
+    ],
+    "Motherboard": [
+      {
+        "id": 4,
+        "image": "/images/board-1.jpg",
+        "product_name": "Motherboard Model X",
+        "category": "Motherboard",
+        "status": "In Stock",
+        "price": "$189.95",
+        "description": "The Motherboard Model X provides excellent stability and connectivity.",
+        "key_features": {
+          "brand": "Brand D",
+          "model": "Model X",
+          "specification": "Spec D",
+          "socket_support": "Socket X",
+          "RAM_slots": 4,
+          "max_RAM_capacity": "128GB"
+        },
+        "individual_rating": 4.6,
+        "average_rating": 4.7,
+        "reviews": [
+          {
+            "username": "UserA",
+            "rating": 4.5,
+            "comment": "A reliable motherboard with good build quality."
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "image": "/images/board-2.jpg",
+        "product_name": "Motherboard Model Y",
+        "category": "Motherboard",
+        "status": "Out of stock",
+        "price": "$169.99",
+        "description": "The Motherboard Model Y is feature-rich and ideal for gamers.",
+        "key_features": {
+          "brand": "Brand E",
+          "model": "Model Y",
+          "specification": "Spec E",
+          "socket_support": "Socket Y",
+          "RAM_slots": 4,
+          "max_RAM_capacity": "64GB"
+        },
+        "individual_rating": 4.8,
+        "average_rating": 4.9,
+        "reviews": [
+          {
+            "username": "UserD",
+            "rating": 5,
+            "comment": "A fantastic motherboard with a sleek design."
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "image": "/images/board-3.jpg",
+        "product_name": "Motherboard Model Z",
+        "category": "Motherboard",
+        "status": "In Stock",
+        "price": "$219.95",
+        "description": "The Motherboard Model Z is built for high-performance computing.",
+        "key_features": {
+          "brand": "Brand F",
+          "model": "Model Z",
+          "specification": "Spec F",
+          "socket_support": "Socket Z",
+          "RAM_slots": 4,
+          "max_RAM_capacity": "128GB"
+        },
+        "individual_rating": 4.7,
+        "average_rating": 4.8,
+        "reviews": [
+          {
+            "username": "UserG",
+            "rating": 4,
+            "comment": "Good motherboard with stable performance."
+          }
+        ]
+      }
+    ],
+    "RAM": [
+      {
+        "id": 7,
+        "image": "/images/ram-1.jpg",
+        "product_name": "RAM Module X",
+        "category": "RAM",
+        "status": "In Stock",
+        "price": "$89.99",
+        "description": "The RAM Module X offers high-speed performance for multitasking and gaming.",
+        "key_features": {
+          "brand": "Brand G",
+          "model": "Module X",
+          "type": "DDR4",
+          "capacity": "16GB",
+          "speed": "3200MHz"
+        },
+        "individual_rating": 4.5,
+        "average_rating": 4.7,
+        "reviews": [
+          {
+            "username": "UserH",
+            "rating": 5,
+            "comment": "Fast and reliable RAM. Perfect for my gaming setup."
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "image": "/images/ram-2.jpg",
+        "product_name": "RAM Module Y",
+        "category": "RAM",
+        "status": "In Stock",
+        "price": "$149.95",
+        "description": "The RAM Module Y ensures smooth performance during intensive tasks.",
+        "key_features": {
+          "brand": "Brand H",
+          "model": "Module Y",
+          "type": "DDR4",
+          "capacity": "32GB",
+          "speed": "3600MHz"
+        },
+        "individual_rating": 4.8,
+        "average_rating": 4.9,
+        "reviews": [
+          {
+            "username": "UserI",
+            "rating": 4.5,
+            "comment": "Top-notch RAM. My system feels much faster now."
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "image": "/images/ram-3.jpg",
+        "product_name": "RAM Module Z",
+        "category": "RAM",
+        "status": "Out of stock",
+        "price": "$249.99",
+        "description": "The RAM Module Z offers excellent overclocking potential for enthusiasts.",
+        "key_features": {
+          "brand": "Brand I",
+          "model": "Module Z",
+          "type": "DDR4",
+          "capacity": "64GB",
+          "speed": "4000MHz"
+        },
+        "individual_rating": 4.9,
+        "average_rating": 4.9,
+        "reviews": [
+          {
+            "username": "UserJ",
+            "rating": 5,
+            "comment": "Impressive RAM. Perfect for content creation and heavy multitasking."
+          }
+        ]
+      }
+    ],
+    "PowerSupplyUnit": [
+      {
+        "id": 10,
+        "image": "/images/power-1.jpg",
+        "product_name": "Power Supply Unit X",
+        "category": "Power Supply Unit",
+        "status": "In Stock",
+        "price": "$129.99",
+        "description": "The Power Supply Unit X delivers stable and efficient power to your components.",
+        "key_features": {
+          "brand": "Brand J",
+          "model": "Unit X",
+          "wattage": "750W",
+          "efficiency": "80+ Gold",
+          "modular": true
+        },
+        "individual_rating": 4.6,
+        "average_rating": 4.7,
+        "reviews": [
+          {
+            "username": "UserK",
+            "rating": 4.5,
+            "comment": "Reliable PSU. No issues so far, and the modular design is a plus."
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "image": "/images/power-2.jpg",
+        "product_name": "Power Supply Unit Y",
+        "category": "Power Supply Unit",
+        "status": "In Stock",
+        "price": "$179.95",
+        "description": "The Power Supply Unit Y ensures stable performance even under heavy loads.",
+        "key_features": {
+          "brand": "Brand K",
+          "model": "Unit Y",
+          "wattage": "850W",
+          "efficiency": "80+ Platinum",
+          "modular": true
+        },
+        "individual_rating": 4.9,
+        "average_rating": 4.9,
+        "reviews": [
+          {
+            "username": "UserL",
+            "rating": 5,
+            "comment": "Outstanding PSU. Worth the investment for a high-end system."
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "image": "/images/power-3.jpg",
+        "product_name": "Power Supply Unit Z",
+        "category": "Power Supply Unit",
+        "status": "Out of stock",
+        "price": "$199.99",
+        "description": "The Power Supply Unit Z offers excellent power efficiency and reliability.",
+        "key_features": {
+          "brand": "Brand L",
+          "model": "Unit Z",
+          "wattage": "1000W",
+          "efficiency": "80+ Titanium",
+          "modular": true
+        },
+        "individual_rating": 4.8,
+        "average_rating": 4.9,
+        "reviews": [
+          {
+            "username": "UserM",
+            "rating": 4.5,
+            "comment": "High-quality PSU. I can trust it to power my high-performance rig."
+          }
+        ]
+      }
+    ],
+    "StorageDevice": [
+      {
+        "id": 13,
+        "image": "/images/storage-1.jpg",
+        "product_name": "SSD X",
+        "category": "Storage Device",
+        "status": "In Stock",
+        "price": "$99.99",
+        "description": "The SSD X offers blazing-fast read and write speeds for quick data access.",
+        "key_features": {
+          "brand": "Brand M",
+          "model": "SSD X",
+          "type": "Internal SSD",
+          "capacity": "500GB",
+          "interface": "NVMe M.2",
+          "read_speed": "3500MB/s",
+          "write_speed": "2500MB/s"
+        },
+        "individual_rating": 4.7,
+        "average_rating": 4.8,
+        "reviews": [
+          {
+            "username": "UserN",
+            "rating": 5,
+            "comment": "Fantastic SSD. My system boots up in seconds!"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "image": "/images/storage-2.jpg",
+        "product_name": "HDD Y",
+        "category": "Storage Device",
+        "status": "In Stock",
+        "price": "$79.95",
+        "description": "The HDD Y offers large storage capacity for your media and data files.",
+        "key_features": {
+          "brand": "Brand N",
+          "model": "HDD Y",
+          "type": "Internal HDD",
+          "capacity": "2TB",
+          "interface": "SATA 6Gb/s",
+          "cache": "64MB",
+          "rpm": "7200"
+        },
+        "individual_rating": 4.6,
+        "average_rating": 4.7,
+        "reviews": [
+          {
+            "username": "UserO",
+            "rating": 4.5,
+            "comment": "Reliable HDD for storage. Good value for the price."
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "image": "/images/storage-3.jpg",
+        "product_name": "External SSD Z",
+        "category": "Storage Device",
+        "status": "Out of stock",
+        "price": "$179.99",
+        "description": "The External SSD Z offers high-speed data transfer in a portable design.",
+        "key_features": {
+          "brand": "Brand O",
+          "model": "SSD Z",
+          "type": "External SSD",
+          "capacity": "1TB",
+          "interface": "USB 3.2 Gen 2",
+          "read_speed": "1000MB/s",
+          "write_speed": "950MB/s"
+        },
+        "individual_rating": 4.9,
+        "average_rating": 4.9,
+        "reviews": [
+          {
+            "username": "UserP",
+            "rating": 5,
+            "comment": "Fast and compact SSD. Perfect for backups and on-the-go use."
+          }
+        ]
+      }
+    ],
+    "Monitor": [
+      {
+        "id": 16,
+        "image": "/images/monitor-1.jpg",
+        "product_name": "Monitor X",
+        "category": "Monitor",
+        "status": "In Stock",
+        "price": "$249.99",
+        "description": "The Monitor X offers stunning visuals and smooth gameplay with a high refresh rate.",
+        "key_features": {
+          "brand": "Brand P",
+          "model": "Monitor X",
+          "screen_size": "27 inches",
+          "resolution": "2560x1440",
+          "refresh_rate": "144Hz",
+          "panel_type": "IPS",
+          "response_time": "1ms",
+          "connectors": "HDMI, DisplayPort"
+        },
+        "individual_rating": 4.8,
+        "average_rating": 4.9,
+        "reviews": [
+          {
+            "username": "UserQ",
+            "rating": 5,
+            "comment": "Excellent monitor for gaming and media consumption."
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "image": "/images/monitor-2.jpg",
+        "product_name": "Monitor Y",
+        "category": "Monitor",
+        "status": "In Stock",
+        "price": "$199.95",
+        "description": "The Monitor Y delivers accurate colors and wide viewing angles for professional work.",
+        "key_features": {
+          "brand": "Brand Q",
+          "model": "Monitor Y",
+          "screen_size": "24 inches",
+          "resolution": "1920x1080",
+          "refresh_rate": "75Hz",
+          "panel_type": "VA",
+          "response_time": "5ms",
+          "connectors": "HDMI, VGA"
+        },
+        "individual_rating": 4.7,
+        "average_rating": 4.8,
+        "reviews": [
+          {
+            "username": "UserR",
+            "rating": 4.5,
+            "comment": "Great monitor for productivity tasks. Colors look vibrant."
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "image": "/images/monitor-3.jpg",
+        "product_name": "Monitor Z",
+        "category": "Monitor",
+        "status": "Out of stock",
+        "price": "$349.99",
+        "description": "The Monitor Z offers an immersive curved display for a captivating visual experience.",
+        "key_features": {
+          "brand": "Brand R",
+          "model": "Monitor Z",
+          "screen_size": "32 inches",
+          "resolution": "3840x2160",
+          "refresh_rate": "60Hz",
+          "panel_type": "IPS",
+          "response_time": "4ms",
+          "connectors": "HDMI, DisplayPort"
+        },
+        "individual_rating": 4.9,
+        "average_rating": 4.9,
+        "reviews": [
+          {
+            "username": "UserS",
+            "rating": 5,
+            "comment": "Absolutely stunning monitor. Movies and games look incredible!"
+          }
+        ]
+      }
+    ],
+    "GPU": [
+      {
+        "id": 19,
+        "image": "/images/gpu-1.jpg",
+        "product_name": "GPU Model X",
+        "category": "GPU",
+        "status": "In Stock",
+        "price": "$599.99",
+        "description": "The GPU Model X delivers incredible graphics performance for gaming and rendering.",
+        "key_features": {
+          "brand": "Brand S",
+          "model": "Model X",
+          "chipset": "RTX 3080",
+          "memory": "10GB GDDR6X",
+          "core_clock": "1750 MHz",
+          "interfaces": "DisplayPort, HDMI"
+        },
+        "individual_rating": 4.8,
+        "average_rating": 4.9,
+        "reviews": [
+          {
+            "username": "UserT",
+            "rating": 5,
+            "comment": "A beast of a GPU. It crushes all the latest games at max settings."
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "image": "/images/gpu-2.jpg",
+        "product_name": "GPU Model Y",
+        "category": "GPU",
+        "status": "In Stock",
+        "price": "$399.95",
+        "description": "The GPU Model Y offers excellent performance for smooth gaming experiences.",
+        "key_features": {
+          "brand": "Brand T",
+          "model": "Model Y",
+          "chipset": "RX 6700 XT",
+          "memory": "12GB GDDR6",
+          "core_clock": "2100 MHz",
+          "interfaces": "DisplayPort, HDMI"
+        },
+        "individual_rating": 4.7,
+        "average_rating": 4.8,
+        "reviews": [
+          {
+            "username": "UserU",
+            "rating": 4.5,
+            "comment": "Solid GPU for 1440p gaming. Runs cool and quiet."
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "image": "/images/gpu-3.jpg",
+        "product_name": "GPU Model Z",
+        "category": "GPU",
+        "status": "Out of stock",
+        "price": "$799.99",
+        "description": "The GPU Model Z is a premium choice for content creators and high-end gamers.",
+        "key_features": {
+          "brand": "Brand U",
+          "model": "Model Z",
+          "chipset": "RTX 3090",
+          "memory": "24GB GDDR6X",
+          "core_clock": "1900 MHz",
+          "interfaces": "DisplayPort, HDMI"
+        },
+        "individual_rating": 4.9,
+        "average_rating": 4.9,
+        "reviews": [
+          {
+            "username": "UserV",
+            "rating": 5,
+            "comment": "The ultimate GPU. I can handle any workload with ease."
+          }
+        ]
+      }
+    ],
+    "Mouse": [
+      {
+        "id": 22,
+        "image": "/images/mouse-1.jpg",
+        "product_name": "Gaming Mouse X",
+        "category": "Mouse",
+        "status": "In Stock",
+        "price": "$49.99",
+        "description": "The Gaming Mouse X offers precise tracking and customizable RGB lighting.",
+        "key_features": {
+          "brand": "Brand V",
+          "model": "Mouse X",
+          "dpi": "16000",
+          "buttons": "6 programmable buttons",
+          "polling_rate": "1000Hz",
+          "connection": "Wired USB"
+        },
+        "individual_rating": 4.6,
+        "average_rating": 4.7,
+        "reviews": [
+          {
+            "username": "UserW",
+            "rating": 4.5,
+            "comment": "Great gaming mouse for the price. It fits my hand comfortably."
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "image": "/images/mouse-2.jpg",
+        "product_name": "Wireless Mouse Y",
+        "category": "Mouse",
+        "status": "In Stock",
+        "price": "$39.95",
+        "description": "The Wireless Mouse Y provides wireless freedom and long-lasting battery life.",
+        "key_features": {
+          "brand": "Brand W",
+          "model": "Mouse Y",
+          "dpi": "12000",
+          "buttons": "4 programmable buttons",
+          "polling_rate": "500Hz",
+          "connection": "Wireless (2.4GHz)"
+        },
+        "individual_rating": 4.8,
+        "average_rating": 4.9,
+        "reviews": [
+          {
+            "username": "UserX",
+            "rating": 5,
+            "comment": "No more tangled wires. This mouse is responsive and reliable."
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "image": "/images/mouse-3.jpg",
+        "product_name": "Ergonomic Mouse Z",
+        "category": "Mouse",
+        "status": "Out of stock",
+        "price": "$29.99",
+        "description": "The Ergonomic Mouse Z provides a comfortable grip for extended use.",
+        "key_features": {
+          "brand": "Brand X",
+          "model": "Mouse Z",
+          "dpi": "8000",
+          "buttons": "5 programmable buttons",
+          "polling_rate": "1000Hz",
+          "connection": "Wired USB"
+        },
+        "individual_rating": 4.7,
+        "average_rating": 4.8,
+        "reviews": [
+          {
+            "username": "UserY",
+            "rating": 5,
+            "comment": "I love the ergonomic design. My wrist feels much better now."
+          }
+        ]
+      }
+    ],
+    "Keyboard": [
+      {
+        "id": 25,
+        "image": "/images/keyboard-1.jpg",
+        "product_name": "Mechanical Keyboard X",
+        "category": "Keyboard",
+        "status": "In Stock",
+        "price": "$99.99",
+        "description": "The Mechanical Keyboard X offers tactile switches for precise and satisfying typing.",
+        "key_features": {
+          "brand": "Brand Y",
+          "model": "Keyboard X",
+          "switch_type": "Cherry MX Brown",
+          "backlighting": "RGB",
+          "polling_rate": "1000Hz",
+          "connection": "Wired USB"
+        },
+        "individual_rating": 4.7,
+        "average_rating": 4.8,
+        "reviews": [
+          {
+            "username": "UserZ",
+            "rating": 5,
+            "comment": "A joy to type on. The Cherry MX Brown switches feel amazing."
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "image": "/images/keyboard-2.jpg",
+        "product_name": "Wireless Keyboard Y",
+        "category": "Keyboard",
+        "status": "In Stock",
+        "price": "$79.95",
+        "description": "The Wireless Keyboard Y provides a clutter-free typing experience with a numeric keypad.",
+        "key_features": {
+          "brand": "Brand Z",
+          "model": "Keyboard Y",
+          "switch_type": "Membrane",
+          "backlighting": "None",
+          "polling_rate": "125Hz",
+          "connection": "Wireless (2.4GHz) with USB receiver"
+        },
+        "individual_rating": 4.5,
+        "average_rating": 4.6,
+        "reviews": [
+          {
+            "username": "UserAA",
+            "rating": 4,
+            "comment": "A basic wireless keyboard. Gets the job done."
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "image": "/images/keyboard-3.jpg",
+        "product_name": "Gaming Keyboard Z",
+        "category": "Keyboard",
+        "status": "Out of stock",
+        "price": "$129.99",
+        "description": "The Gaming Keyboard Z features customizable RGB lighting and programmable macros.",
+        "key_features": {
+          "brand": "Brand BB",
+          "model": "Keyboard Z",
+          "switch_type": "Mechanical (Custom)",
+          "backlighting": "RGB",
+          "polling_rate": "1000Hz",
+          "connection": "Wired USB"
+        },
+        "individual_rating": 4.9,
+        "average_rating": 4.9,
+        "reviews": [
+          {
+            "username": "UserCC",
+            "rating": 5,
+            "comment": "My dream gaming keyboard. The custom switches are fantastic."
+          }
+        ]
+      }
+    ]
+  }
+}
